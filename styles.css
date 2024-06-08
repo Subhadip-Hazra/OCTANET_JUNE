@@ -1,0 +1,26 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li:hover{
+    color: rgba(44, 44, 220, 0.902);
+}
+.btn{
+    color: white;
+    background-color: #4CAF4F;
+    padding: .5rem 1.5rem .5rem 1.5rem;
+    border-radius: 5%;
+    font-size:1.1rem;
+}
+
+p,h1{
+    font-family: "Inter", sans-serif;
+}
+
